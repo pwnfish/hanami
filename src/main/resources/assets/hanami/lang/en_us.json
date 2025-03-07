@@ -1,4 +1,10 @@
 {
+	"block.hanami.maple_leaves": "Maple Leaves",
+	"block.hanami.maple_log": "Maple Log",
+	"block.hanami.maple_planks": "Maple Planks",
+	"block.hanami.maple_wood": "Maple Wood",
+	"block.hanami.stripped_maple_log": "Stripped Maple Log",
+	"block.hanami.stripped_maple_wood": "Stripped Maple Wood",
 	"block.hanami.sunburnt_tatami": "Sunburnt Tatami",
 	"block.hanami.sunburnt_tatami_slab": "Sunburnt Tatami Slab",
 	"block.hanami.tatami": "Tatami",

@@ -1,4 +1,10 @@
 {
+	"block.hanami.maple_leaves": "紅葉の葉",
+	"block.hanami.maple_log": "紅葉の原木",
+	"block.hanami.maple_planks": "紅葉の板材",
+	"block.hanami.maple_wood": "紅葉の木",
+	"block.hanami.stripped_maple_log": "樹皮を剥いだ紅葉の原木",
+	"block.hanami.stripped_maple_wood": "樹皮を剥いだ紅葉の木",
 	"block.hanami.sunburnt_tatami": "日焼けした畳",
 	"block.hanami.sunburnt_tatami_slab": "日焼けした畳のハーフブロック",
 	"block.hanami.tatami": "畳",
