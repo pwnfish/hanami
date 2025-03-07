@@ -1,6 +1,7 @@
 package fish.pwn.hanami.datagen;
 
 import fish.pwn.hanami.HanamiBlocks;
+import fish.pwn.hanami.HanamiItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
@@ -28,5 +29,7 @@ public class HanamiRecipeProvider extends FabricRecipeProvider {
 			.criterion(hasItem(Items.HAY_BLOCK), conditionsFromItem(Items.HAY_BLOCK))
 			.offerTo(exporter);
 		offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, HanamiBlocks.TATAMI_SLAB, HanamiBlocks.TATAMI);
+
+		offerPlanksRecipe(exporter, HanamiBlocks.MAPLE_PLANKS, HanamiItemTagProvider.MAPLE_LOGS, 4);
 	}
 }
