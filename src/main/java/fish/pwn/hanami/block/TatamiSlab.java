@@ -16,7 +16,7 @@ public class TatamiSlab extends FacingSlab {
 	public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
 		super.randomTick(state, world, pos, random);
 
-		if (world.isSkyVisible(pos.up(1)) && world.isDay()) {
+		if (world.isSkyVisible(pos.up()) && world.isDay() && random.nextInt(100) > 50) {
 			world.setBlockState(pos, HanamiBlocks.SUNBURNT_TATAMI_SLAB.getStateWithProperties(state));
 		}
 	}
