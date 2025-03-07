@@ -14,8 +14,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
-import java.util.function.Function;
-
 public class HanamiBlocks {
 	public static void initialize() {
 		ItemGroupEvents.modifyEntriesEvent(HanamiItems.ITEM_GROUP_KEY).register(
@@ -30,12 +28,10 @@ public class HanamiBlocks {
 
 	private static Block register(
 		String name,
-		Function<AbstractBlock.Settings, Block> blockFactory,
-		AbstractBlock.Settings settings,
+		Block block,
 		boolean shouldRegisterItem
 	) {
 		Identifier id = new Identifier(Hanami.MOD_ID, name);
-		Block block = blockFactory.apply(settings);
 
 		if (shouldRegisterItem) {
 			BlockItem blockItem = new BlockItem(block, new Item.Settings());
@@ -47,40 +43,36 @@ public class HanamiBlocks {
 
 	public static final Block SUNBURNT_TATAMI = register(
 		"sunburnt_tatami",
-		FacingBlock::new,
-		AbstractBlock.Settings.create()
+		new FacingBlock(AbstractBlock.Settings.create()
 			.sounds(BlockSoundGroup.BAMBOO)
 			.resistance(2)
-			.hardness(2),
+			.hardness(2)),
 		true
 	);
 	public static final Block SUNBURNT_TATAMI_SLAB = register(
 		"sunburnt_tatami_slab",
-		FacingSlab::new,
-		AbstractBlock.Settings.create()
+		new FacingSlab(AbstractBlock.Settings.create()
 			.sounds(BlockSoundGroup.BAMBOO)
 			.resistance(2)
-			.hardness(2),
+			.hardness(2)),
 		true
 	);
 	public static final Block TATAMI = register(
 		"tatami",
-		TatamiBlock::new,
-		AbstractBlock.Settings.create()
+		new TatamiBlock(AbstractBlock.Settings.create()
 			.sounds(BlockSoundGroup.BAMBOO)
 			.ticksRandomly()
 			.resistance(2)
-			.hardness(2),
+			.hardness(2)),
 		true
 	);
 	public static final Block TATAMI_SLAB = register(
 		"tatami_slab",
-		TatamiSlab::new,
-		AbstractBlock.Settings.create()
+		new TatamiSlab(AbstractBlock.Settings.create()
 			.sounds(BlockSoundGroup.BAMBOO)
 			.ticksRandomly()
 			.resistance(2)
-			.hardness(2),
+			.hardness(2)),
 		true
 	);
 }
