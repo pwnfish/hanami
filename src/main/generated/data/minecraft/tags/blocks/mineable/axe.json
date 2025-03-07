@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"hanami:sunburnt_tatami",
+		"hanami:sunburnt_tatami_slab",
+		"hanami:tatami",
+		"hanami:tatami_slab"
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_top",
+	"textures": {
+		"side": "hanami:block/tatami_side",
+		"top": "hanami:block/tatami_top"
+	}
+}

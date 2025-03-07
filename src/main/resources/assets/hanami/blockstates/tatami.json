@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "hanami:block/tatami"
+		},
+		"facing=east": {
+			"model": "hanami:block/tatami",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "hanami:block/tatami",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "hanami:block/tatami",
+			"y": 270
+		}
+	}
+}

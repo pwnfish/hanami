@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "hanami",
+	"version": "${version}",
+	"name": "Hanami",
+	"description": "",
+	"authors": [
+		"pwn.fish"
+	],
+	"contact": {
+		"homepage": "https://pwn.fish",
+		"sources": "https://github.com/pwnfish/hanami"
+	},
+	"license": "AGPL-3.0-or-later",
+	"icon": "assets/hanami/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fish.pwn.hanami.Hanami"
+		],
+		"client": [
+			"fish.pwn.hanami.HanamiClient"
+		],
+		"fabric-datagen": [
+			"fish.pwn.hanami.HanamiDataGenerator"
+		]
+	},
+	"mixins": [
+		"hanami.mixins.json",
+		{
+			"config": "hanami.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

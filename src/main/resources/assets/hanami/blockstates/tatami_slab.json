@@ -1,0 +1,49 @@
+{
+	"variants": {
+		"type=bottom,facing=north": {
+			"model": "hanami:block/tatami_slab"
+		},
+		"type=bottom,facing=east": {
+			"model": "hanami:block/tatami_slab",
+			"y": 90
+		},
+		"type=bottom,facing=south": {
+			"model": "hanami:block/tatami_slab",
+			"y": 180
+		},
+		"type=bottom,facing=west": {
+			"model": "hanami:block/tatami_slab",
+			"y": 270
+		},
+		"type=double,facing=north": {
+			"model": "hanami:block/tatami"
+		},
+		"type=double,facing=east": {
+			"model": "hanami:block/tatami",
+			"y": 90
+		},
+		"type=double,facing=south": {
+			"model": "hanami:block/tatami",
+			"y": 180
+		},
+		"type=double,facing=west": {
+			"model": "hanami:block/tatami",
+			"y": 270
+		},
+		"type=top,facing=north": {
+			"model": "hanami:block/tatami_slab_top"
+		},
+		"type=top,facing=east": {
+			"model": "hanami:block/tatami_slab_top",
+			"y": 90
+		},
+		"type=top,facing=south": {
+			"model": "hanami:block/tatami_slab_top",
+			"y": 180
+		},
+		"type=top,facing=west": {
+			"model": "hanami:block/tatami_slab_top",
+			"y": 270
+		}
+	}
+}
