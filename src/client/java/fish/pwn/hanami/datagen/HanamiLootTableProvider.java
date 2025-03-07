@@ -15,5 +15,6 @@ public class HanamiLootTableProvider extends FabricBlockLootTableProvider {
 		addDrop(HanamiBlocks.SUNBURNT_TATAMI_SLAB, slabDrops(HanamiBlocks.SUNBURNT_TATAMI_SLAB));
 		addDrop(HanamiBlocks.TATAMI);
 		addDrop(HanamiBlocks.TATAMI_SLAB, slabDrops(HanamiBlocks.TATAMI_SLAB));
+		addDrop(HanamiBlocks.KUDZU, dropsWithShears(HanamiBlocks.KUDZU));
 	}
 }

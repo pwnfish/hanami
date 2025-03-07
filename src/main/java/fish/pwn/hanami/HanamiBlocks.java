@@ -1,12 +1,11 @@
 package fish.pwn.hanami;
 
-import fish.pwn.hanami.block.FacingBlock;
-import fish.pwn.hanami.block.FacingSlab;
-import fish.pwn.hanami.block.TatamiBlock;
-import fish.pwn.hanami.block.TatamiSlab;
+import fish.pwn.hanami.block.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -22,6 +21,7 @@ public class HanamiBlocks {
 				itemGroup.add(SUNBURNT_TATAMI_SLAB.asItem());
 				itemGroup.add(TATAMI.asItem());
 				itemGroup.add(TATAMI_SLAB.asItem());
+				itemGroup.add(KUDZU.asItem());
 			}
 		);
 	}
@@ -73,6 +73,21 @@ public class HanamiBlocks {
 			.ticksRandomly()
 			.resistance(2)
 			.hardness(2)),
+		true
+	);
+	public static final Block KUDZU = register(
+		"kudzu",
+		new KudzuBlock(AbstractBlock.Settings.create()
+			.mapColor(MapColor.DARK_GREEN)
+			.replaceable()
+			.noCollision()
+			.nonOpaque()
+			.ticksRandomly()
+			.strength(0.2F)
+			.sounds(BlockSoundGroup.VINE)
+			.burnable()
+			.pistonBehavior(PistonBehavior.DESTROY)
+		),
 		true
 	);
 }

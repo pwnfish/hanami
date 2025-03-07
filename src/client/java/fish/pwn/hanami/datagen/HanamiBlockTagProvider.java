@@ -23,5 +23,11 @@ public class HanamiBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 			.add(HanamiBlocks.SUNBURNT_TATAMI_SLAB)
 			.add(HanamiBlocks.TATAMI)
 			.add(HanamiBlocks.TATAMI_SLAB);
+
+		getOrCreateTagBuilder(BlockTags.CLIMBABLE)
+				.add(HanamiBlocks.KUDZU);
+
+		getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
+				.add(HanamiBlocks.KUDZU);
 	}
 }

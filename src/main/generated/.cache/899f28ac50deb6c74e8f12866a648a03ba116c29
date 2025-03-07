@@ -1,5 +1,6 @@
-// 1.20.1	2025-03-06T18:55:59.330338	Hanami/Block Loot Tables
-8b767e05b423b4d60aad250bdbf48293cf2e4973 data/hanami/loot_tables/blocks/tatami_slab.json
-e8f00d70f28607ce21f09eb208b84d6f6624c8ae data/hanami/loot_tables/blocks/tatami.json
-4a3666d5e8d51b3dee6ef7f2ffc532e30ba2c89d data/hanami/loot_tables/blocks/sunburnt_tatami.json
-ee293ad3ebd264425aaab006c47adb0cd4acecee data/hanami/loot_tables/blocks/sunburnt_tatami_slab.json
+// 1.20.1	2025-03-07T13:43:38.2786295	Hanami/Block Loot Tables
+8b767e05b423b4d60aad250bdbf48293cf2e4973 data\hanami\loot_tables\blocks\tatami_slab.json
+4a3666d5e8d51b3dee6ef7f2ffc532e30ba2c89d data\hanami\loot_tables\blocks\sunburnt_tatami.json
+ee293ad3ebd264425aaab006c47adb0cd4acecee data\hanami\loot_tables\blocks\sunburnt_tatami_slab.json
+2056a31498cd5aa1cd66cdc4a74ed9039e892d6d data\hanami\loot_tables\blocks\kudzu.json
+e8f00d70f28607ce21f09eb208b84d6f6624c8ae data\hanami\loot_tables\blocks\tatami.json

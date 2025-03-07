@@ -1,2 +1,4 @@
-// 1.20.1	2025-03-06T18:55:59.330737	Hanami/Tags for minecraft:block
-18adce2ebb577c22a0b5580c2ee2a80b408f4980 data/minecraft/tags/blocks/mineable/axe.json
+// 1.20.1	2025-03-07T13:43:38.2796139	Hanami/Tags for minecraft:block
+18adce2ebb577c22a0b5580c2ee2a80b408f4980 data\minecraft\tags\blocks\mineable\axe.json
+cdb513cac6affa084e2bc98b3f385b21e865e384 data\minecraft\tags\blocks\sword_efficient.json
+cdb513cac6affa084e2bc98b3f385b21e865e384 data\minecraft\tags\blocks\climbable.json
