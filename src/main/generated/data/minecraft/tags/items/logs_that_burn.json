@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "hanami:maple_log",
+    "hanami:maple_wood",
+    "hanami:stripped_maple_log",
+    "hanami:stripped_maple_wood"
+  ]
+}

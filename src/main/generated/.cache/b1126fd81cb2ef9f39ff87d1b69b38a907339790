@@ -1,5 +1,7 @@
-// 1.20.1	2025-03-06T18:55:59.330886	Hanami/Recipes
-23da4879ef10e295836a06c31b6865476bd684cb data/hanami/advancements/recipes/building_blocks/tatami.json
-d37173e5411b12e608b6c48861146a114e392c3b data/hanami/advancements/recipes/building_blocks/tatami_slab.json
+// 1.20.1	2025-03-07T15:33:29.595910309	Hanami/Recipes
 2430ec4272afc728e2dc3834cdc513cfe6f185b4 data/hanami/recipes/tatami.json
+d37173e5411b12e608b6c48861146a114e392c3b data/hanami/advancements/recipes/building_blocks/tatami_slab.json
+23da4879ef10e295836a06c31b6865476bd684cb data/hanami/advancements/recipes/building_blocks/tatami.json
+63068ff8f2bbc88db4a5507d96e97de91d2f499a data/hanami/recipes/maple_planks.json
+bf35f5d3c69bfa5e1aba6648d2dcbb8d9e8a6c1c data/hanami/advancements/recipes/building_blocks/maple_planks.json
 7ceb93a7d9ee6a9b82ad17d78a574a3387399fa1 data/hanami/recipes/tatami_slab.json

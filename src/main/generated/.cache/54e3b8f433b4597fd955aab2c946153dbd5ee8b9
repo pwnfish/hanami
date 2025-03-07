@@ -1,2 +1,15 @@
-// 1.20.1	2025-03-06T18:55:59.330737	Hanami/Tags for minecraft:block
-18adce2ebb577c22a0b5580c2ee2a80b408f4980 data/minecraft/tags/blocks/mineable/axe.json
+// 1.20.1	2025-03-07T15:33:29.595649249	Hanami/Tags for minecraft:block
+3ef77277ae7aa159fe8a27aa06ff9642c796ba82 data/minecraft/tags/blocks/wall_signs.json
+12f069ea46b7a2acc2e4083acdaa32aa814f5126 data/minecraft/tags/blocks/wooden_buttons.json
+b1a4ef295793d2dacb827a83c84bfe3bf956fa9c data/minecraft/tags/blocks/logs_that_burn.json
+1e740f463b500a921a8866822e380c30fb19aa83 data/minecraft/tags/blocks/wooden_stairs.json
+92c294575fc1b30df99e2717f5b9e4affe0a2968 data/minecraft/tags/blocks/wooden_doors.json
+aa548b2ccbbdf650f064f0e349f48e19b11292cf data/minecraft/tags/blocks/mineable/hoe.json
+a1730837bf33ace5ecbdb76389afee926d21f2bb data/minecraft/tags/blocks/mineable/axe.json
+6a3cbf06bb48d6071144af9ad375565bf0db0aae data/minecraft/tags/blocks/wooden_pressure_plates.json
+9cccd786f37e150dab57945604015187dcd1804a data/minecraft/tags/blocks/wall_hanging_signs.json
+43d69407768462a9b8095ba6805cf0047af9d2f0 data/minecraft/tags/blocks/fence_gates.json
+fc58b168561d82fe5c3624b2fa1a48fd2972297d data/minecraft/tags/blocks/wooden_fences.json
+07371e838cdb04b5b276b17bca03bc402f20c69a data/minecraft/tags/blocks/wooden_trapdoors.json
+5b1d37b2c91fd23e03c1ea228512f52d62fa8d15 data/minecraft/tags/blocks/wooden_slabs.json
+55bafadc19c2f05f2fa8f3f5082f0c45a751ba98 data/minecraft/tags/blocks/flower_pots.json

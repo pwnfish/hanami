@@ -1,9 +1,14 @@
 {
-	"replace": false,
-	"values": [
-		"hanami:sunburnt_tatami",
-		"hanami:sunburnt_tatami_slab",
-		"hanami:tatami",
-		"hanami:tatami_slab"
-	]
+  "replace": false,
+  "values": [
+    "hanami:maple_log",
+    "hanami:maple_planks",
+    "hanami:maple_wood",
+    "hanami:stripped_maple_log",
+    "hanami:stripped_maple_wood",
+    "hanami:sunburnt_tatami",
+    "hanami:sunburnt_tatami_slab",
+    "hanami:tatami",
+    "hanami:tatami_slab"
+  ]
 }

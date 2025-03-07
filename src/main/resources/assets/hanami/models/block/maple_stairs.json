@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "hanami:block/maple_planks",
+    "side": "hanami:block/maple_planks",
+    "top": "hanami:block/maple_planks"
+  }
+}
