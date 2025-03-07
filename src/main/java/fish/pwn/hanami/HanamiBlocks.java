@@ -17,6 +17,14 @@ public class HanamiBlocks {
 	public static void initialize() {
 		ItemGroupEvents.modifyEntriesEvent(HanamiItems.ITEM_GROUP_KEY).register(
 			itemGroup -> {
+				itemGroup.add(MAPLE_LEAVES.asItem());
+				itemGroup.add(MAPLE_LOG.asItem());
+				itemGroup.add(MAPLE_PLANKS.asItem());
+				itemGroup.add(MAPLE_SAPLING.asItem());
+				itemGroup.add(MAPLE_WOOD.asItem());
+				itemGroup.add(STRIPPED_MAPLE_LOG.asItem());
+				itemGroup.add(STRIPPED_MAPLE_WOOD.asItem());
+
 				itemGroup.add(SUNBURNT_TATAMI.asItem());
 				itemGroup.add(SUNBURNT_TATAMI_SLAB.asItem());
 				itemGroup.add(TATAMI.asItem());
